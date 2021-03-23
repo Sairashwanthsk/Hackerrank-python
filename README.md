@@ -23,6 +23,7 @@ Contents:
     1. String Split and Join
     2. What's Your Name?
     3. sWAP cASE
+    4. Mutations
 
   Itertools:
     1. itertools.product()
