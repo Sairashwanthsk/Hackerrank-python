@@ -15,7 +15,8 @@ Contents:
     1. Finding the percentage
     2. Lists
     3. Tuples
-    4. Find the Runner-Up Score!
+    4. Nested Lists
+    5. Find the Runner-Up Score!
 
   Itertools:
     1. itertools.product()
