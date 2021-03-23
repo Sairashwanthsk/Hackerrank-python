@@ -20,7 +20,8 @@ Contents:
     6. Find the Runner-Up Score!
 
   Strings:
-    1. sWAP cASE
+    1. String Split and Join
+    2. sWAP cASE
 
   Itertools:
     1. itertools.product()
