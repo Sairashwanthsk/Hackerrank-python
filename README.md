@@ -21,7 +21,8 @@ Contents:
 
   Strings:
     1. String Split and Join
-    2. sWAP cASE
+    2. What's Your Name?
+    3. sWAP cASE
 
   Itertools:
     1. itertools.product()
