@@ -14,7 +14,8 @@ Contents:
   Basic Data types:
     1. Finding the percentage
     2. Lists
-    3. Find the Runner-Up Score!
+    3. Tuples
+    4. Find the Runner-Up Score!
 
   Itertools:
     1. itertools.product()
