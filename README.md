@@ -24,6 +24,7 @@ Contents:
     2. What's Your Name?
     3. sWAP cASE
     4. Mutations
+    5. Find a string
 
   Itertools:
     1. itertools.product()
