@@ -16,7 +16,8 @@ Contents:
     2. Lists
     3. Tuples
     4. Nested Lists
-    5. Find the Runner-Up Score!
+    5. List Comprehensions
+    6. Find the Runner-Up Score!
 
   Itertools:
     1. itertools.product()
