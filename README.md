@@ -19,6 +19,9 @@ Contents:
     5. List Comprehensions
     6. Find the Runner-Up Score!
 
+  Strings:
+    1. sWAP cASE
+
   Itertools:
     1. itertools.product()
     2. itertools.permutations()
