@@ -1,0 +1,20 @@
+list1 = []
+n = int(raw_input())
+
+for i in range(0, n):
+    flag = raw_input().split()
+    
+    if flag[0] == 'insert':
+        list1.insert(int(flag[1]), int(flag[2]))
+    elif flag[0] == 'remove':
+        list1.remove(int(flag[1]))
+    elif flag[0] == 'append':
+        list1.append(int(flag[1]))
+    elif flag[0] == 'sort':
+        list1.sort()
+    elif flag[0] == 'reverse':
+        list1.reverse()
+    elif flag[0] == 'pop':
+        list1.pop()
+    else:
+        print(list1)
