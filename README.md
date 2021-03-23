@@ -26,6 +26,7 @@ Contents:
     4. Mutations
     5. Find a string
     6. String Validators
+    7. Text Alignment
 
   Itertools:
     1. itertools.product()
