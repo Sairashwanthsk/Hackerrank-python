@@ -25,6 +25,7 @@ Contents:
     3. sWAP cASE
     4. Mutations
     5. Find a string
+    6. String Validators
 
   Itertools:
     1. itertools.product()
