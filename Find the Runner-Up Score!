@@ -1,0 +1,3 @@
+n = int(raw_input())
+list1 = map(int, raw_input().split())
+print(sorted(set(list(list1)))[-2])
