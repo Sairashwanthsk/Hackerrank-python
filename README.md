@@ -32,6 +32,11 @@ Contents:
     10. String Formatting
     11. Capitalize!
     12. Merge the Tools!
+    13. 
+
+  Sets:
+    1. Introduction to Sets
+    2. 
 
   Itertools:
     1. itertools.product()
