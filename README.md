@@ -28,6 +28,8 @@ Contents:
     6. String Validators
     7. Text Alignment
     8. Text Wrap
+    9. Designer Door Mat
+    10. String Formatting
 
   Itertools:
     1. itertools.product()
