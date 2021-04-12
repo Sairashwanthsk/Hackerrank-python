@@ -31,6 +31,7 @@ Contents:
     9. Designer Door Mat
     10. String Formatting
     11. Capitalize!
+    12. Merge the Tools!
 
   Itertools:
     1. itertools.product()
