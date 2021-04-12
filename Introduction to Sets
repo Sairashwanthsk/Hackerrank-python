@@ -1,0 +1,14 @@
+from __future__ import division
+
+def average(array):
+    total,count = 0,0
+    for i in set(array):
+        total += i
+        count+=1
+    return total/count
+
+if __name__ == '__main__':
+    n = int(raw_input())
+    arr = map(int, raw_input().split())
+    result = average(arr)
+    print result
