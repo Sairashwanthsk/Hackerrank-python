@@ -30,6 +30,7 @@ Contents:
     8. Text Wrap
     9. Designer Door Mat
     10. String Formatting
+    11. Capitalize!
 
   Itertools:
     1. itertools.product()
