@@ -1,0 +1,11 @@
+import textwrap
+
+def merge_the_tools(string, k):
+    wrapper = textwrap.TextWrapper(width=k)
+    word_list = wrapper.wrap(text=string)
+    for words in word_list:
+        print "".join(set(words))
+    
+if __name__ == '__main__':
+    string, k = raw_input(), int(raw_input())
+    merge_the_tools(string, k)
