@@ -1,0 +1,16 @@
+def doormat(width, length):
+    for i in range(0, width//2):
+        design = ".|." * ((2*i)+1)
+        print design.center(length, "-")
+    
+    print "WELCOME".center(length, "-")
+    
+    j = width//2
+    while j>0:
+        design = ".|." * ((2*j)-1)
+        print design.center(length, "-")
+        j-=1
+
+if __name__ == '__main__':
+    width, length = map(int, raw_input().split())
+    doormat(width, length)
