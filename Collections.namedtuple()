@@ -1,0 +1,9 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from collections import namedtuple
+
+num_of_students, table_title, total_marks = int(input()), raw_input().split(), 0
+for i in range(num_of_students):
+    students = namedtuple('students', table_title)
+    student = students(*raw_input().split());
+    total_marks+=int(student.MARKS)
+print '{:.2f}'.format(float(total_marks)/num_of_students)
