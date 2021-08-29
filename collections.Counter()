@@ -1,0 +1,23 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+from collections import Counter;
+
+num_of_shoes = int(raw_input())
+shoe_sizes = []
+flag = raw_input().split()
+
+for i in range(num_of_shoes):
+    shoe_sizes.append(flag[i])
+    
+aggregated_shoes = Counter(shoe_sizes)
+
+num_of_customers = input()
+
+total_sale = 0
+
+for values in range(num_of_customers):
+    customer_size = raw_input().split()
+    if aggregated_shoes[customer_size[0]]!=0:
+        total_sale+=int(customer_size[1])
+        aggregated_shoes[customer_size[0]]=aggregated_shoes[customer_size[0]]-1
+print total_sale
