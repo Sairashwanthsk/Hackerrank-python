@@ -1,0 +1,15 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+from collections import OrderedDict
+
+num_of_items = int(input())
+
+items_dict = OrderedDict()
+for i in range(num_of_items):
+    item = raw_input().split()
+    if ' '.join(item[:-1]) in items_dict:
+        items_dict[' '.join(item[:-1])] += int(item[-1])
+    else:
+        items_dict[' '.join(item[:-1])] = int(item[-1])
+    
+for key,value in items_dict.items():
+    print key+' '+str(value)
